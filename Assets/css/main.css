@@ -1,0 +1,22 @@
+* {
+    font-family: 'Montagu Slab', serif;
+}
+.user-input {
+    font-size: 16px;
+}
+.btn-custom {
+    background-color: rgb(198, 164, 100);
+    color: black;
+}
+.navbar-custom {
+    background-color: rgb(192, 227, 250);
+    color: black;
+}
+.btn-quit {
+    background-color: rgb(240, 175, 138);
+    color: black;
+}
+.question-btn {
+    background-color: rgb(224, 193, 251);
+    color: black;
+}
