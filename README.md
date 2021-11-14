@@ -30,8 +30,7 @@
 </div>
 
 ## Description:
-I created a web application that will test user's 
-<br/>jQuery knowledge by taking a sample 5 question quiz. 
+I created a web application that will test user's jQuery knowledge by taking a sample 5 question quiz. 
 <br/>This quiz game can:
 - has timer and deducts a time whenever you get the answer wrong
 - allows you to save your initials and highscore
