@@ -1,8 +1,8 @@
 function jqueryGame(){
 //    variables
     let time = 0;
-    const startTime = (15*questions.length);
-    const minusTime = 15;
+    const startTime = (20*questions.length);
+    const minusTime = 10;
     let quizQuestion = 0;
     let timerEl = document.getElementById("timer")
     // Start game
@@ -36,7 +36,7 @@ function jqueryGame(){
     function createRow(rowTotal, content) {
         for (let i = 0; i < rowTotal; i++){
             const rowEl = document.createElement("div");
-            rowEl.setAttribute("class", "row")            
+            rowEl.setAttribute("class", "row");            
             const colEl = document.createElement("div");
             colEl.setAttribute("class", "col");
             colEl.append(content);
@@ -175,7 +175,6 @@ function jqueryGame(){
     function handleHighscore(highscores) {
         if(localStorage.getItem('localHighscores')){
             highscores = localStorage.getItem('localHighscores');
-            https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse
             highscores = JSON.parse(highscores);
         }   else{
             highscores = [];
@@ -217,4 +216,4 @@ function jqueryGame(){
         document.body.append(displayAllHighscore);
     }
 }
-jqueryGame()
+jqueryGame();
